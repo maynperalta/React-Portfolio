@@ -1,0 +1,13 @@
+.container {
+    background-color: rgb(245, 245, 245, 0.9);
+    border: solid 1px;
+    padding: 20px;
+}
+
+p{
+    padding: 10px;
+  }
+
+button {
+    margin: 5px;
+  }

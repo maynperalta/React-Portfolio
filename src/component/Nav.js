@@ -1,9 +1,11 @@
 import React from "react";
+import "../styles/Nav.css";
+
 
 const Nav = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+      <nav className="navbar navbar-expand-lg navbar-dark navbar-custom">
         <span className="navbar-brand mb-0 h1">Maynard Peralta</span>
         <button
           className="navbar-toggler"
@@ -20,7 +22,7 @@ const Nav = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <a className="nav-link" href="index.html">
-                Home<span class="sr-only">(current)</span>
+                Home<span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">

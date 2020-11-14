@@ -1,0 +1,14 @@
+nav {
+    border: 1px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.navbar-custom {
+  background-color: rgb(110, 110, 255);
+}
+.navbar-brand {
+  padding: 8px;
+  background-color: rgb(110, 110, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
