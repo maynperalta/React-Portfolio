@@ -64,12 +64,12 @@ function Contact() {
           <h4>Connect with me on social media!</h4>
         </div>
       </div>
-      <div class="row justify-content-center">
-          <a href="https://www.facebook.com/Man.of.Sorrows" target="_blank" rel="noreferrer" class="fa fa-facebook"><FontAwesomeIcon icon={faFacebook} /></a>    
-          <a href="https://twitter.com/maynperalta?lang=en" target="_blank" rel="noreferrer" class="fa fa-twitter" ><FontAwesomeIcon icon={faTwitter} /></a>
-          <a href="https://www.youtube.com/channel/UC2d6zTXzXzh-2DE8QljA19g?" target="_blank"  rel="noreferrer" class="fa fa-youtube"><FontAwesomeIcon icon={faYoutube} /></a>
-          <a href="https://www.instagram.com/maynperalta/" target="_blank"  rel="noreferrer"class="fa fa-instagram" ><FontAwesomeIcon icon={faInstagram} /></a>
-          <a href="https://maynardperalta.tumblr.com/" target="_blank"  rel="noreferrer"class="fa fa-tumblr" ><FontAwesomeIcon icon={faTumblr} /></a>
+      <div className="row justify-content-center">
+          <a href="https://www.facebook.com/Man.of.Sorrows" target="_blank" rel="noreferrer" className="fa fa-facebook"><FontAwesomeIcon icon={faFacebook} /></a>    
+          <a href="https://twitter.com/maynperalta?lang=en" target="_blank" rel="noreferrer" className="fa fa-twitter" ><FontAwesomeIcon icon={faTwitter} /></a>
+          <a href="https://www.youtube.com/channel/UC2d6zTXzXzh-2DE8QljA19g?" target="_blank"  rel="noreferrer" className="fa fa-youtube"><FontAwesomeIcon icon={faYoutube} /></a>
+          <a href="https://www.instagram.com/maynperalta/" target="_blank"  rel="noreferrer"className="fa fa-instagram" ><FontAwesomeIcon icon={faInstagram} /></a>
+          <a href="https://maynardperalta.tumblr.com/" target="_blank"  rel="noreferrer"className="fa fa-tumblr" ><FontAwesomeIcon icon={faTumblr} /></a>
         </div>
       </div>
       <Footer />
