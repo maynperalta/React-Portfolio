@@ -7,6 +7,8 @@ function Portfolio() {
     return(
         <div>
             <Nav />
+
+            
             <Footer />
         </div>
     )
