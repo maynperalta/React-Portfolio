@@ -21,8 +21,8 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
-              <Link className="nav-link" to="/">Home<span className="sr-only">(current)</span></Link>
+            <li className="nav-item">
+              <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/portfolio">Portfolio</Link>

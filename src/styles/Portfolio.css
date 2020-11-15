@@ -1,0 +1,37 @@
+
+.card {
+    margin: 20px;
+    transition: transform .3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  a:hover {
+    filter:brightness(110%);
+  }
+  
+  .img {
+      position: relative;
+      width: 100%;
+      height: auto;
+  }
+
+  h3 {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 30px; 
+    width: 100%;
+    background-color: rgb(182, 186, 243, 0.95);
+    font-size: 18px;
+  }
+
+  h1, h2, h4 {
+    border-bottom: solid 5px;
+    padding: 10px;
+  }

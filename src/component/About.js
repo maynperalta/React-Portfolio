@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import "../styles/Container.css"
 import Headshot from "../assets/Headshot.JPG";
+import Pdf from "../assets/Resume.pdf";
 
 function About() {
     return(
@@ -36,9 +37,9 @@ function About() {
         </div>
       </div>
       <div className="row justify-content-md-center">
-        <a href="https://github.com/maynperalta" target="_blank"><button type="button" className="btn btn-primary">GitHub</button></a>
-        <a href="https://www.linkedin.com/in/maynard-peralta/" target="_blank"><button type="button" className="btn btn-primary">LinkedIn</button></a>
-        <a href="./assets/Resume.pdf" target="_blank"><button type="button" className="btn btn-primary">Resume</button></a>
+        <a href="https://github.com/maynperalta" target="_blank" rel="noreferrer"><button type="button" className="btn btn-primary">GitHub</button></a>
+        <a href="https://www.linkedin.com/in/maynard-peralta/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-primary">LinkedIn</button></a>
+        <a href={Pdf} target="_blank" rel="noreferrer"><button type="button" className="btn btn-primary">Resume</button></a>
         </div>
       </div>
       <Footer />

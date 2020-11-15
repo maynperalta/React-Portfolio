@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  -ms-overflow-style: none;
+  background-image: url(./assets/skyline.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
