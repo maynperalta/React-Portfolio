@@ -1,10 +1,13 @@
 import React from "react";
+import Nav from "./Nav";
+import Footer from "./Footer";
 import "../styles/Container.css"
 import Headshot from "../assets/Headshot.JPG";
 
-const Container = () => {
+const About = () => {
     return(
         <div>
+          <Nav />
             <div className="container">
       <div className="row">
             <div className="col-md-12">
@@ -38,8 +41,9 @@ const Container = () => {
         <a href="./assets/Resume.pdf" target="_blank"><button type="button" className="btn btn-primary">Resume</button></a>
         </div>
       </div>
+      <Footer />
         </div>
     )
 };
 
-export default Container;
+export default About;

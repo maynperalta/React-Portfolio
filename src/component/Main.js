@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import Footer from "./Footer";
-import Container from "./Container";
+import Container from "./About";
 
 const Main = () => {
   return (
