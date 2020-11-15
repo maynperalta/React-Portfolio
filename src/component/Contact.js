@@ -3,7 +3,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import Jumbotron from "./Jumbotron";
 
-const Contact = () => {
+function Contact() {
         return(
             <div>
                 <Nav />

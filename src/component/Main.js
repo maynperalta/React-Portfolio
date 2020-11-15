@@ -3,7 +3,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import About from "./About";
 
-const Main = () => {
+function Main() {
   return (
     <div>
         <Nav />

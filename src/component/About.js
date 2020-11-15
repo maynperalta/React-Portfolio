@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import "../styles/Container.css"
 import Headshot from "../assets/Headshot.JPG";
 
-const About = () => {
+function About() {
     return(
         <div>
           <Nav />

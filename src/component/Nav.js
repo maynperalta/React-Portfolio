@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Nav.css";
 
 
-const Nav = () => {
+function Nav() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark navbar-custom">
@@ -21,19 +22,13 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="index.html">
-                Home<span className="sr-only">(current)</span>
-              </a>
+              <Link className="nav-link" to="/">Home<span className="sr-only">(current)</span></Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="portfolio.html">
-                Portfolio
-              </a>
+              <Link className="nav-link" to="/portfolio">Portfolio</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="contact.html">
-                Contact
-              </a>
+              <Link className="nav-link" to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
