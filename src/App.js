@@ -8,13 +8,11 @@ import Resume from "../src/assets/Resume.pdf";
 
 function App() {
   return (
-    <Router>
-      <div>
+    <Router basename={process.env.PUBLIC_URL}>
         <Route exact path="/" component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
         <Route path="/Resume.pdf" component={Resume} />
-      </div>
     </Router>
   );
 }
