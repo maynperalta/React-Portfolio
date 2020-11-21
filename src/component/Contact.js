@@ -1,6 +1,4 @@
 import React from "react";
-import Nav from "./Nav";
-import Footer from "./Footer";
 import "../styles/Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -15,7 +13,6 @@ import { faTumblr } from "@fortawesome/free-brands-svg-icons";
 function Contact() {
   return (
     <div>
-      <Nav />
       <div className="container">
         <div className="row">
           <div className="col-md-12">
@@ -72,7 +69,6 @@ function Contact() {
           <a href="https://maynardperalta.tumblr.com/" target="_blank"  rel="noreferrer"className="fa fa-tumblr" ><FontAwesomeIcon icon={faTumblr} /></a>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
