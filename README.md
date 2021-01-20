@@ -26,7 +26,7 @@ Screenshot of portfolio page.
 
 ## Deployed Link
 
-The deployed portfolio can be found [here](https://dreamy-clarke-75eef4.netlify.app/).
+The deployed portfolio can be found [here](https://maynperalta.github.io/React-Portfolio/).
 
 ## Contact Information
 If you have any questions, I can be contacted via email at:

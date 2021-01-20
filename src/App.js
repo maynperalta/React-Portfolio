@@ -15,8 +15,8 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
     <Nav />
         <Route exact path="/" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
         <Route path="/Resume.pdf" component={Resume} />
     </Router>
     <Footer />
